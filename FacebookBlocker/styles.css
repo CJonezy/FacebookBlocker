@@ -1,0 +1,74 @@
+.leftSideBarButton {
+	font-family: 'Manjari', sans-serif;
+	background-color: #e7e7e7;
+	border: none;
+	color: black;
+    padding: 15px;
+ 
+  width: 60%;
+  text-align: center;
+  text-decoration: none;
+   display: block;
+  font-size: 120%;
+   vertical-align: middle;
+   margin-bottom: +4px;
+
+
+}
+
+.leftSideBarButton:hover {
+  background-color: #bfbfbf;
+}
+
+
+.grid-container {
+ 
+  display: grid;
+  grid-template-columns: 0.8fr 1.4fr 0.8fr;
+  grid-template-rows: 0.3fr 1.7fr 1fr;
+}
+.Feed { 
+font-family: 'Manjari', sans-serif;
+	background-color: #e7e7e7;
+	border: none;
+	color: black;
+    padding: 15px;
+ 
+  width: 60%;
+  text-align: center;
+  text-decoration: none;
+   display: block;
+  font-size: 120%;
+   vertical-align: middle;
+	vertical-align: middle;
+	 margin-bottom: +4px;
+}
+
+.Feed-area { 
+	grid-area: 2 / 2 / 4 / 3; 
+	
+}
+
+#CreatePost {
+    height: 25%;
+}
+
+#Stories {
+    height: 40%;
+}
+
+#NewsFeedMain {
+    height: 80%;
+}
+
+
+
+.Left Side Bar { 
+	grid-area: 2 / 1 / 4 / 2; 
+	display: block;
+	
+	}
+
+.Right-Side\ Bar { grid-area: 2 / 3 / 4 / 4; }
+
+.Top-Bar { grid-area: 1 / 1 / 2 / 4; }

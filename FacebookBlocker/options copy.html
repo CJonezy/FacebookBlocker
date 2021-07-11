@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.header {
+	height: 10%;
+ 	text-align: center;
+  margin: 0;
+  background-color: #4267B2;
+  color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  
+}
+
+.subHeading {
+  height: 10%;
+  text-align: center;
+  margin: 0;
+  background-color: #d32f2f;
+
+
+  color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding: 3px;
+  
+}
+
+.subHeading1 {
+  height: 10%;
+  text-align: center;
+  margin: 0;
+  background-color: #ff6d00;
+
+
+  color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding: 3px;
+  
+}
+
+.subHeading2 {
+  height: 10%;
+  text-align: center;
+  margin: 0;
+  background-color: #ffc107;
+
+
+  color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding: 3px;
+  
+}
+
+.topMenu {
+
+  width: 50%;
+ border: 5px;
+ border-radius: 3px;
+ background-color: white;
+ left: 25%;
+  vertical-align: middle;
+  position: relative;
+  display:inline-block;
+   vertical-align:top;
+   margin-top: 15px;
+   margin-bottom: 15px;
+  
+}
+
+
+
+.gapBorder {
+	
+  width: 95%;
+  left: 2.5%;
+  height: 10%;
+  border-bottom: solid #e3e3e3 1px; 
+  vertical-align: middle;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.leftBar {
+  width: 25%;
+
+ float:left;
+
+  
+}
+
+.rightBar {
+ width: 25%;
+
+ float:right;
+}
+.main {
+   width: 50%;
+  margin:0 auto;
+  text-align:center;
+
+ 
+
+}
+
+.card {
+	width: 95%;
+  padding: 2px 16px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  text-align: center;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  
+
+  
+}
+
+.cardMain {
+	width: 90%;
+	margin: 0; padding: 0; border: 0; outline: 0;
+
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  text-align: center;
+  border-radius: 3px;
+  vertical-align:top
+  left: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 6px;
+  display: inline-block;
+  
+}
+
+.test:after {
+  content: '\2807';
+  font-size: 30px;
+  color: grey;
+  float:right;
+  padding-top: 10px;
+  }
+
+.cardMainHeadingBackground {
+	 margin: 0; padding: 0; border: 0; outline: 0;
+ border-radius: 3px 3px 0px 0px; 
+ 
+	background-color: #e6e6e6;
+	width: 100%;
+		height: 40px;
+		background-clip: content-box;
+}
+.cardMainHeading {
+	line-height:35px;
+ 	margin: 0; padding: 0; border: 0; outline: 0;
+	width: 90%;
+	margin-left: 5%;
+	float:left;
+		
+		
+}
+
+.cardSubHeading {
+  color: #696969;
+}
+
+
+</style>
+
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+
+
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+<body style="background-color:#fafafa;"">
+
+
+<h1 div class="header">Options</h1>
+
+ <div class="topMenu">
+
+   <li class="mdl-list__item mdl-list__item--three-line">
+    <span class="mdl-list__item-primary-content">
+     
+      <span>Work Mode</span>
+      <span class="mdl-list__item-text-body" div class="cardSubHeading">
+        Work mode takes away most features of facebook to help you focus on your work without being distracted by facebook
+      </span>
+    </span>
+     <span class="mdl-list__item-secondary-action">
+      <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+        <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1">
+      </label>
+    </span>
+  </li>
+
+  <br>
+
+   <li class="mdl-list__item mdl-list__item--three-line">
+    <span class="mdl-list__item-primary-content">
+      <span>Social Mode</span>
+      <span class="mdl-list__item-text-body" div class="cardSubHeading">
+        Social mode takes a focus on connection between friends on facebook, allowing news feed but limiting content to posts from friends
+      </span>
+    </span>
+     <span class="mdl-list__item-secondary-action">
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+          <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+        </label>
+    </span>
+  </li>
+
+<br>
+
+
+   <li class="mdl-list__item mdl-list__item--three-line">
+    <span class="mdl-list__item-primary-content">
+      <span>Off</span>
+     <span class="mdl-list__item-text-body" div class="cardSubHeading">
+        No Restrictions
+      </span>
+    </span>
+     <span class="mdl-list__item-secondary-action">
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-3">
+  <input type="radio" id="option-3" class="mdl-radio__button" name="options" value="3" checked>
+ 
+</label>
+</span>
+  </li>
+
+ </div>
+
+<div class="gapBorder"></div>
+
+<h2 div class="subHeading">Daily</h2>
+
+<div class="main">
+	<div class="cardMain" style="height: 100px">
+		<div class = "cardMainHeadingBackground">
+  			<h5 div class="cardMainHeading" >Total Time On FaceBook Today</h5><div class="test"></div>
+		</div>
+  		<div class="card-body">
+    
+    		<p div class="cardSubHeading" class="card-text"></p>
+   
+  		</div>
+	</div>
+</div>
+
+<h2 div class="subHeading1">Weekly</h2>
+
+<div class="main">
+
+	<div class="cardMain" style="height: 100px">
+		<div class = "cardMainHeadingBackground">
+  			<h5 div class="cardMainHeading" >Time Spent in Modes Today</h5><div class="test"></div>
+		</div>
+  		<div class="card-body">
+    
+    		<p div class="cardSubHeading" class="card-text"> </p>
+   
+  		</div>
+	</div>
+
+  <div class="cardMain" style="height: 100px">
+    <div class = "cardMainHeadingBackground">
+        <h5 div class="cardMainHeading" >Time Spent in Modes Today</h5><div class="test"></div>
+    </div>
+      <div class="card-body">
+    
+        <p div class="cardSubHeading" class="card-text"> </p>
+   
+      </div>
+  </div>
+
+	<div class="cardMain" style="height: 200px">
+		<div class = "cardMainHeadingBackground" >
+  			<h5 div class="cardMainHeading" >News Feed</h5><div class="test"></div>
+		</div>
+  		<div class="card-body">
+    
+    		<p div class="cardSubHeading" class="card-text"></p>
+   
+  		</div>
+	</div>
+
+            
+</div>
+
+<h2 div class="subHeading2">All Time</h2>
+
+
+
+<script src="options.js"></script>
+
+</body>
+</html>
